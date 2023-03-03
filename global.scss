@@ -1,0 +1,20 @@
+$text-color: rgb(3, 3, 62);
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  ul {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  li {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    a {
+      text-decoration: none;
+      color: $text-color;
+    }
+  }
+}

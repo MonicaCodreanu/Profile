@@ -1,0 +1,12 @@
+@import "style.css";
+body .projects {
+  display: flex;
+  justify-content: center;
+}
+body .projects ol li {
+  display: flex;
+  flex-direction: column;
+}
+body .projects img {
+  width: 150px;
+}/*# sourceMappingURL=portfolio-style.css.map */
