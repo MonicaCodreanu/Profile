@@ -4,12 +4,12 @@ function Resume() {
     <div>
       <div className="btns">
         <button>
-          <a href="public/Monica Codreanu_CV_ENG.pdf" target="_blank">
+          <a href="Monica Codreanu_CV_ENG.pdf" target="_blank">
             Download CV English
           </a>
         </button>
         <button>
-          <a href="public/Monica Codreanu_CV.pdf" target="_blank">
+          <a href="Monica Codreanu_CV.pdf" target="_blank">
             Download CV Swedish
           </a>
         </button>
@@ -24,7 +24,7 @@ function Resume() {
         <div className="column1">
           <img
             className="box1"
-            src="public/Monica Codreanu_picture.jpg"
+            src="Monica Codreanu_picture.jpg"
             alt=""
           />
           <div className="box1">
