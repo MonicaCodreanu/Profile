@@ -1,5 +1,9 @@
-body {
+.ResumeWrapper {
   color: black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-self: center;
 }
 .RedText {
   color: #d00000;
@@ -13,8 +17,11 @@ body {
 }
 .nameDiv {
   background-color: white;
+  margin-top: 1rem;
+  width: 100%;
   border-radius: 5px;
   box-shadow: rgba(250, 248, 248, 0.24) 0px 3px 8px;
+  height: 80px;
 }
 
 .resumeColumns {
@@ -98,7 +105,7 @@ body {
       font-weight: bold;
       display: inline-block;
       width: 1em;
-      margin-left: -1em;
+      margin-left: 1em;
     }
     .listLevel2 {
       margin: 0;

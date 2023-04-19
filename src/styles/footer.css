@@ -1,0 +1,12 @@
+.Footer {
+  position: relative;
+  bottom: 0;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+}
+.Footer a {
+  color: #e0ddcf;
+}/*# sourceMappingURL=footer.css.map */

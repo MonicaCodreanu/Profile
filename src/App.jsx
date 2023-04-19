@@ -7,6 +7,7 @@ import Projects from "./pages/projects";
 import Contact from "./pages/contact";
 import Resume from "./pages/resume";
 import Navbar from "./Components/navbar";
+import Footer from "./Components/footer";
 
 function App() {
   return (
@@ -19,6 +20,7 @@ function App() {
         <Route path="/resume" element={<Resume />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
+      <Footer />
     </div>
   );
 }

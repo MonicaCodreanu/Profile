@@ -2,9 +2,15 @@ body {
   background-color: #2d232e; // #f0f2f5;
 }
 .main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: 0, auto;
   color: #e0ddcf;
   margin-top: 5rem;
   text-align: justify;
+
   img {
     width: 60px;
     // height: 60px;

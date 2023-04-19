@@ -1,7 +1,7 @@
 import "../styles/resume.css";
 function Resume() {
   return (
-    <div>
+    <div className="ResumeWrapper">
       <div className="btns">
         <button>
           <a href="Monica Codreanu_CV_ENG.pdf" target="_blank">
