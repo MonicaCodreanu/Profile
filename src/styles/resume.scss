@@ -134,3 +134,21 @@ body {
     margin: 0;
   }
 }
+
+@media only screen and (max-width: 800px) {
+  .resumeColumns {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    .column2 {
+      width: 300px;
+      text-align: left;
+    }
+    .Job {
+      .JobTitle {
+        display: flex;
+        flex-direction: column;
+      }
+    }
+  }
+}

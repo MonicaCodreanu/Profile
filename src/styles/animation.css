@@ -111,4 +111,19 @@
   100% {
     transform: translateY(1000px);
   }
+}
+@media only screen and (max-width: 800px) {
+  .S {
+    width: 30px;
+    height: 30px;
+  }
+  .L {
+    width: 30px;
+  }
+  .introFullName {
+    margin-top: 0px;
+  }
+  .introFullName h1 {
+    font-size: 30px;
+  }
 }/*# sourceMappingURL=animation.css.map */

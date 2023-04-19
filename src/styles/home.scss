@@ -24,9 +24,16 @@ body {
     margin-left: 20px;
   }
 }
-// .mail {
-//   position: absolute;
-//   bottom: 200px;
-//   right: 10px;
-//   transform: rotate(90deg);
-// }
+
+@media only screen and (max-width: 800px) {
+  .main {
+    .Hi {
+      font-size: 15px;
+    }
+    .FullName {
+      h1 {
+        font-size: 50px;
+      }
+    }
+  }
+}

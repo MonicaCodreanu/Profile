@@ -7,6 +7,7 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
   background-color: #534b52;
   color: #e0ddcf;
   padding-left: 1rem;
@@ -21,6 +22,7 @@
 .navbar ul {
   display: flex;
   flex-direction: row;
+  align-items: center;
   padding-right: 1rem;
   gap: 1rem;
   color: #e0ddcf;
@@ -34,4 +36,12 @@
 }
 .navbar ul a:link:active {
   color: rgb(6, 161, 22);
+}
+
+@media only screen and (max-width: 800px) {
+  .navbar img {
+    width: 35px;
+    height: 35px;
+    align-items: center;
+  }
 }/*# sourceMappingURL=menu.css.map */

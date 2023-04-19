@@ -1,6 +1,13 @@
-.Contact {
-  color: #e0ddcf;
-  a {
+.ContactWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 100px;
+  .Contact {
     color: #e0ddcf;
+    a {
+      color: #e0ddcf;
+    }
   }
 }

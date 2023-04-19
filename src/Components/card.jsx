@@ -2,7 +2,7 @@ import "../styles/card.css";
 
 function Card({ name, img, link, description }) {
   return (
-    <a clasName="alinkCard" href={link} target="_blank">
+    <a className="alinkCard" href={link} target="_blank">
       <div className="box">
         <div className="description">
           <h2>{name}</h2>

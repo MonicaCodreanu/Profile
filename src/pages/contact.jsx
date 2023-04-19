@@ -1,7 +1,7 @@
 import "../styles/contact.css";
 function Contact() {
   return (
-    <div>
+    <div className="ContactWrapper">
       <h2>Contact me</h2>
       <div className="Contact">
         You can contact me on{" "}

@@ -23,4 +23,13 @@ body {
   color: #534b52;
   text-shadow: #e0ddcf 2px 5px;
   margin-left: 20px;
+}
+
+@media only screen and (max-width: 800px) {
+  .main .Hi {
+    font-size: 15px;
+  }
+  .main .FullName h1 {
+    font-size: 50px;
+  }
 }/*# sourceMappingURL=home.css.map */
