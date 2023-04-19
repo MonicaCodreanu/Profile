@@ -11,7 +11,7 @@ function Contact() {
         or e-mail:
       </div>
       <div>
-        <img src="public/mail.PNG" alt="" />
+        <img src="mail.PNG" alt="" />
       </div>
     </div>
   );
