@@ -1,0 +1,38 @@
+.navbar {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  right: 0;
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #534b52; // #ced0ce;
+  color: #e0ddcf;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  img {
+    width: 45px;
+    height: 45px;
+    margin-left: 30px;
+    margin-top: 5px;
+  }
+
+  ul {
+    display: flex;
+    flex-direction: row;
+    padding-right: 1rem;
+    gap: 1rem;
+    color: #e0ddcf;
+    li {
+      list-style-type: none;
+    }
+    a {
+      text-decoration: none;
+      color: #e0ddcf;
+    }
+    a:link:active {
+      color: rgb(6, 161, 22);
+    }
+  }
+}

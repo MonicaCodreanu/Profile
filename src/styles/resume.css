@@ -1,0 +1,134 @@
+@charset "UTF-8";
+body {
+  color: black;
+}
+
+.RedText {
+  color: #d00000;
+}
+
+.btns {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.nameDiv {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(250, 248, 248, 0.24) 0px 3px 8px;
+}
+
+.resumeColumns {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+}
+.resumeColumns .Job {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid gray;
+  border-radius: 5px;
+  margin-top: 5px;
+  padding: 5px;
+}
+.resumeColumns .Job h4 {
+  margin: 5px;
+}
+.resumeColumns .Job .JobTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.resumeColumns .Job .Workplace {
+  display: flex;
+}
+.resumeColumns .Job .JobDescription {
+  margin: 5px;
+  padding: 5px;
+}
+.resumeColumns .Utbildning h4 {
+  margin: 5px;
+}
+.resumeColumns .Utbildning .JobTitle {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.resumeColumns .Utbildning .Workplace {
+  display: flex;
+}
+.resumeColumns .Utbildning .JobDescription {
+  margin: 5px;
+  padding: 5px;
+}
+.resumeColumns .column1 {
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+}
+.resumeColumns .column1 img {
+  border-radius: 10px;
+  max-width: 300px;
+  padding: 5px;
+}
+.resumeColumns .column1 ul {
+  list-style: none;
+}
+.resumeColumns .column1 ul li::before {
+  content: "•";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.resumeColumns .column2 {
+  width: 600px;
+  display: flex;
+  flex-direction: column;
+}
+.resumeColumns .column2 ul {
+  list-style: none;
+}
+.resumeColumns .column2 ul li::before {
+  content: "•";
+  color: red;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+}
+.resumeColumns .column2 .listLevel2 {
+  margin: 0;
+}
+
+.box1 {
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.39);
+  box-shadow: rgba(250, 248, 248, 0.24) 0px 3px 8px;
+  max-width: 300px;
+  text-align: left;
+  background-color: white;
+  margin-top: 10px;
+  padding: 15px;
+}
+.box1 ul {
+  padding-left: 10px;
+}
+
+.box2 {
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.39);
+  box-shadow: rgba(250, 248, 248, 0.24) 0px 3px 8px;
+  max-width: 600px;
+  text-align: justify;
+  background-color: white;
+  margin-top: 10px;
+  padding: 15px;
+}
+.box2 ul {
+  padding-left: 10px;
+  margin: 0;
+}/*# sourceMappingURL=resume.css.map */

@@ -1,0 +1,41 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.39);
+  box-shadow: rgba(250, 248, 248, 0.24) 0px 3px 8px;
+  max-width: 300px;
+  height: 280px;
+  text-align: center;
+  transition: 0.6s ease-in-out;
+  background-color: white;
+  margin-top: 1rem;
+}
+
+.box:hover {
+  transform: scale(1.1);
+}
+
+.box img {
+  border-radius: 5px;
+  width: 100%;
+}
+
+.description {
+  margin-top: 0;
+  padding: 15px;
+}
+.description h2 {
+  margin-top: 0;
+  color: #2d232e;
+}
+.description p {
+  margin: 0;
+}
+
+alinkCard {
+  text-decoration: none;
+  color: black;
+}/*# sourceMappingURL=card.css.map */

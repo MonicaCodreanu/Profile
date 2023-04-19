@@ -1,0 +1,26 @@
+body {
+  background-color: #2d232e;
+}
+
+.main {
+  color: #e0ddcf;
+  margin-top: 5rem;
+  text-align: justify;
+}
+.main img {
+  width: 60px;
+}
+
+.Hi {
+  color: #534b52;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.FullName h1 {
+  font-family: Merienda;
+  font-size: 80px;
+  color: #534b52;
+  text-shadow: #e0ddcf 2px 5px;
+  margin-left: 20px;
+}/*# sourceMappingURL=home.css.map */

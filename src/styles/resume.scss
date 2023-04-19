@@ -1,0 +1,136 @@
+body {
+  color: black;
+}
+.RedText {
+  color: #d00000;
+}
+
+.btns {
+  margin-top: 100px;
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+.nameDiv {
+  background-color: white;
+  border-radius: 5px;
+  box-shadow: rgba(250, 248, 248, 0.24) 0px 3px 8px;
+}
+
+.resumeColumns {
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+
+  .Job {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-top: 5px;
+    padding: 5px;
+    h4 {
+      margin: 5px;
+    }
+    .JobTitle {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .Workplace {
+      display: flex;
+    }
+    .JobDescription {
+      margin: 5px;
+      padding: 5px;
+    }
+  }
+  .Utbildning {
+    h4 {
+      margin: 5px;
+    }
+    .JobTitle {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+    }
+    .Workplace {
+      display: flex;
+    }
+    .JobDescription {
+      margin: 5px;
+      padding: 5px;
+    }
+  }
+
+  .column1 {
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+
+    img {
+      border-radius: 10px;
+      max-width: 300px;
+      padding: 5px;
+    }
+    ul {
+      list-style: none;
+    }
+    ul li::before {
+      content: "\2022";
+      color: red;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+  }
+  .column2 {
+    width: 600px;
+    display: flex;
+    flex-direction: column;
+    ul {
+      list-style: none;
+    }
+    ul li::before {
+      content: "\2022";
+      color: red;
+      font-weight: bold;
+      display: inline-block;
+      width: 1em;
+      margin-left: -1em;
+    }
+    .listLevel2 {
+      margin: 0;
+    }
+  }
+}
+
+.box1 {
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.39);
+  box-shadow: rgba(250, 248, 248, 0.24) 0px 3px 8px;
+  max-width: 300px;
+  text-align: left;
+  background-color: white;
+  margin-top: 10px;
+  padding: 15px;
+  ul {
+    padding-left: 10px;
+  }
+}
+
+.box2 {
+  border-radius: 5px;
+  border: 2px solid rgba(0, 0, 0, 0.39);
+  box-shadow: rgba(250, 248, 248, 0.24) 0px 3px 8px;
+  max-width: 600px;
+  text-align: justify;
+  background-color: white;
+  margin-top: 10px;
+  padding: 15px;
+  ul {
+    padding-left: 10px;
+    margin: 0;
+  }
+}
