@@ -4,7 +4,7 @@ function Resume() {
     <div>
       <div className="btns">
         <button>
-          <a href="public/Monica Codreanu_CV - ENG.pdf" target="_blank">
+          <a href="public/Monica Codreanu_CV_ENG.pdf" target="_blank">
             Download CV English
           </a>
         </button>

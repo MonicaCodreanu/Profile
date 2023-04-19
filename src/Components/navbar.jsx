@@ -3,7 +3,7 @@ import "../styles/menu.css";
 function Navbar() {
   return (
     <div className="navbar">
-      <img src="public/Logo.png" alt="" />
+      <img src="/Logo.png" alt="" />
       <ul>
         <Link to="/">Home</Link>
         <Link to="/projects">My Projects</Link>
