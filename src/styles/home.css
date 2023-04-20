@@ -44,6 +44,9 @@ body {
 }
 
 @media only screen and (max-width: 800px) {
+  .main {
+    width: 100%;
+  }
   .main .Hi {
     font-size: 15px;
   }
