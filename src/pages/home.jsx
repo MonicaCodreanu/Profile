@@ -19,24 +19,24 @@ function Home() {
           <h1>Monica Codreanu</h1>
         </div>
         <div>
-          <p>I am a Junior Frontend Developer.</p>
-          <p>
+          <div className="developer">I am a Junior Frontend Developer</div>
+          <div className="skills">
             My skills include: JavaScript, React, Broser APIs, Node.js, User
             Experience Design (UX), Databases/ MySQL, Responsive Webdesign, Git.
-          </p>
+          </div>
+
+          <div className="skills">
+            I am now available for new assignments in Östergötland as an IT
+            consultant via Academic Work. I look forward to contributing with my
+            knowledge and commitment to you.
+          </div>
+          <div className="skills">
+            If you are interested in learning more about me, please contact me.
+          </div>
+
           <Link to="/projects">
             <button>Check out my work</button>
           </Link>
-
-          <p>
-            I am now available for new assignments in Östergötland and I look
-            forward to contributing my knowledge and commitment to you.
-          </p>
-          <p>
-            If you are interested in learning more about what I have done in the
-            past or what I am interested to do in the future, please contact me
-            by phone or email. Thank you for your interest!
-          </p>
         </div>
         {/* <div className="mail">monica.codreanu@gmail.com</div> */}
       </div>

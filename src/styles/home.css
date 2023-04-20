@@ -3,11 +3,12 @@ body {
 }
 
 .main {
+  width: 800px;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-content: center;
-  margin: 0, auto;
+  margin: auto;
   color: #e0ddcf;
   margin-top: 5rem;
   text-align: justify;
@@ -22,12 +23,24 @@ body {
   font-weight: bold;
 }
 
+.developer {
+  color: #f1f0ea;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .FullName h1 {
   font-family: Merienda;
   font-size: 80px;
   color: #534b52;
   text-shadow: #e0ddcf 2px 5px;
-  margin-left: 20px;
+}
+
+.skills {
+  width: 600px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0;
 }
 
 @media only screen and (max-width: 800px) {
