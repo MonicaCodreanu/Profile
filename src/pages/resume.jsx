@@ -22,11 +22,7 @@ function Resume() {
 
       <div className="resumeColumns">
         <div className="column1">
-          <img
-            className="box1"
-            src="Monica Codreanu_picture.jpg"
-            alt=""
-          />
+          <img className="box1" src="Monica Codreanu_picture.jpg" alt="" />
           <div className="box1">
             <h3>Profil</h3>
             <hr />
@@ -129,10 +125,14 @@ function Resume() {
                     Uppdatera instruktioner för lokaliseringsprocesser
                   </li>
                 </ul>
-                <li>UI testning (August 2007 - August 2009)</li>-
-                Lokaliseringstest: skapa delta testfiler, bearbeta testfiler,
-                felhantering och felverifiering och importera testfiler tillbaka
-                i databasen.
+                <li>UI testning (August 2007 - August 2009)</li>
+                <ul>
+                  <li>
+                    Lokaliseringstest: skapa delta testfiler, bearbeta
+                    testfiler, felhantering och felverifiering och importera
+                    testfiler tillbaka i databasen.
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="Job">
@@ -165,12 +165,24 @@ function Resume() {
                 <h4>Ana Electronic (Bukarest, Rumänien)</h4>
               </div>
               <div className="JobDescription">
-                - Koordinera distribution och försäljning av telekommunikation
-                och datorprodukter, - Upprätthålla affärsrelationer med
-                internationella leverantörer som Philips och Fujitsu - Siemens
-                samt utveckla kommersiella relationer med större kunder, - Utför
-                forskning om marknadstrender för elekommunikationsprodukter,
-                datorer och programvara.
+                <ul>
+                  <li>
+                    Koordinera distribution och försäljning av telekommunikation
+                    och datorprodukter,
+                  </li>
+                  <li>
+                    Upprätthålla affärsrelationer med internationella
+                    leverantörer som Philips och Fujitsu
+                  </li>
+                  <li>
+                    Siemens samt utveckla kommersiella relationer med större
+                    kunder,
+                  </li>
+                  <li>
+                    Utför forskning om marknadstrender för
+                    elekommunikationsprodukter, datorer och programvara.
+                  </li>
+                </ul>
               </div>
             </div>
             <div className="Job">
@@ -182,12 +194,21 @@ function Resume() {
                 <h4>Ana Electronic (Bukarest, Rumänien)</h4>
               </div>
               <div className="JobDescription">
-                -Koordinera distribution och försäljningsaktiviteter för
-                GSM-telefoner, - Upprätta den kommersiella och marknadsförings
-                politiken för GSMavdelningen. Utmärkelser: Jag fick två
-                utmärkelser av "Bästa försäljningsagent" från MobiFon 1999 och
-                2000. (*) Jag har olika kurser för “Försäljningstekniker” och
-                “Kundrelationer”.
+                <ul>
+                  <li>
+                    Koordinera distribution och försäljningsaktiviteter för
+                    GSM-telefoner,
+                  </li>
+                  <li>
+                    Upprätta den kommersiella och marknadsförings politiken för
+                    GSMavdelningen.{" "}
+                  </li>
+                </ul>
+                <span className="boldText">(*)</span> Jag fick två utmärkelser
+                av "Bästa försäljningsagent" från MobiFon 1999 och 2000.
+                <br />
+                <span className="boldText">(**)</span> Jag har olika kurser för
+                “Försäljningstekniker” och “Kundrelationer”.
               </div>
             </div>
           </div>

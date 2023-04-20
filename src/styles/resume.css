@@ -11,6 +11,10 @@
   color: #d00000;
 }
 
+.boldText {
+  font-weight: bold;
+}
+
 .btns {
   margin-top: 100px;
   display: flex;
