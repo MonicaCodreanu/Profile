@@ -45,12 +45,15 @@ body {
 
 @media only screen and (max-width: 800px) {
   .main {
-    width: 100%;
+    width: 300px;
   }
   .main .Hi {
     font-size: 15px;
   }
   .main .FullName h1 {
-    font-size: 50px;
+    font-size: 40px;
+  }
+  .main .skills {
+    width: 300px;
   }
 }/*# sourceMappingURL=home.css.map */

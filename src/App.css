@@ -24,8 +24,9 @@ button {
   border: 2px solid rgba(0, 0, 0, 0.39);
   box-shadow: rgba(250, 248, 248, 0.24) 0px 3px 8px;
 }
-/* @media only screen and (max-width: 800px) {
+@media only screen and (max-width: 800px) {
   .App {
-    width: 800px;
+    width: 350px;
+    padding: 5px;
   }
-} */
+}
