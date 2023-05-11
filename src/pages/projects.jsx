@@ -12,6 +12,12 @@ function Projects() {
           description="This is a Vite project and uses React, CSS"
         ></Card>
         <Card
+          name="Ordering App"
+          img="Ordering.JPG"
+          link="https://daily-quizine.vercel.app"
+          description="This is a React project using all hooks: useContext, useRef, useEffect, useReducer."
+        ></Card>
+        <Card
           name="Recipes"
           img="Recipe.JPG"
           link="https://recipe-livid.vercel.app/"
