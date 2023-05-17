@@ -27,15 +27,14 @@
   gap: 1rem;
   color: #e0ddcf;
 }
-.navbar ul li {
-  list-style-type: none;
-}
 .navbar ul a {
   text-decoration: none;
   color: #e0ddcf;
+  font-size: 18px;
 }
-.navbar ul a:link:active {
-  color: rgb(6, 161, 22);
+.navbar ul .active {
+  color: #f9b006;
+  border-bottom: 2px solid #e0ddcf;
 }
 
 @media only screen and (max-width: 800px) {

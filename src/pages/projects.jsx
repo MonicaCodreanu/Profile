@@ -1,5 +1,6 @@
 import Card from "../Components/card";
 import "../styles/projects.css";
+
 function Projects() {
   return (
     <div className="projects">
@@ -14,8 +15,8 @@ function Projects() {
         <Card
           name="Ordering App"
           img="Ordering.JPG"
-          link="https://daily-quizine.vercel.app"
-          description="This is a React project using all hooks: useContext, useRef, useEffect, useReducer."
+          link="https://order-app-weld.vercel.app"
+          description="This is a React project using all hooks: useContext, useRef, useReducer."
         ></Card>
         <Card
           name="Recipes"

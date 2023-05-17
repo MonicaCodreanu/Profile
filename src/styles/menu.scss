@@ -27,15 +27,15 @@
     padding-right: 1rem;
     gap: 1rem;
     color: #e0ddcf;
-    li {
-      list-style-type: none;
-    }
+
     a {
       text-decoration: none;
       color: #e0ddcf;
+      font-size: 18px;
     }
-    a:link:active {
-      color: rgb(6, 161, 22);
+    .active {
+      color: #f9b006;
+      border-bottom: 2px solid #e0ddcf;
     }
   }
 }
