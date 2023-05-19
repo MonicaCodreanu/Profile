@@ -3,6 +3,6 @@
     { "src": "/", "dest": "/" },
     { "src": "/projects", "dest": "/" },
     { "src": "/contact", "dest": "/" },
-    { "src": "/resume", "dest": "/" },
+    { "src": "/resume", "dest": "/" }
   ]
 }
