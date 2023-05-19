@@ -2,5 +2,7 @@
   "routes": [
     { "src": "/", "dest": "/" },
     { "src": "/projects", "dest": "/" }
+    { "src": "/contact", "dest": "/" }
+    { "src": "/resume", "dest": "/" }
   ]
 }
