@@ -19,21 +19,24 @@ function Projects() {
           description="This is a React project using all hooks: useContext, useRef, useReducer."
         ></Card>
         <Card
+          name="Admin App"
+          img="AdminApp.jpg"
+          link="https://admin-app-gilt.vercel.app/"
+          description=" This is a React project that uses Google Firebase db, storage and authentication."
+        ></Card>
+        <Card
           name="Recipes"
           img="Recipe.JPG"
           link="https://recipe-livid.vercel.app/"
           description="This is a Next.js project and uses React, CSS"
         ></Card>
-
         <Card
           name="TIC TAC TOE"
           img="TicTacToe.JPG"
           link="
         https://tic-tac-toe-nu-red.vercel.app"
           description=" This is my first project and uses HTML, CSS and JavaScript "
-        >
-          {" "}
-        </Card>
+        ></Card>
       </div>
     </div>
   );
