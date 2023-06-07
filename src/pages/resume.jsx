@@ -82,15 +82,15 @@ function Resume() {
             <div className="Job">
               <div className="JobTitle">
                 <h4>IT-konsult</h4>
-                <h4>apr 2023 - pågående</h4>
+                <h4>apr. 2023 - jun. 2023</h4>
               </div>
               <div className="Workplace">
                 <h4>Academic Work</h4>
               </div>
               <div className="JobDescription">
-                Jag är tillgänglig pä heltid som konsult via Academic Work och
-                kan börja arbeta omgående. Efter 12 intensiva veckor, jag har
-                tagit examen från Academic Work/Brights-programmet i JavaScript.
+                Efter 12 intensiva veckor, jag har tagit examen från Academic
+                Work/Brights-programmet i JavaScript. Sen jobbade jag som IT
+                konsult på Academic Work.
               </div>
             </div>
             <div className="Job">

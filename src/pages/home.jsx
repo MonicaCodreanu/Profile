@@ -25,11 +25,7 @@ function Home() {
             Experience Design (UX), Databases/ MySQL, Responsive Webdesign, Git.
           </div>
 
-          <div className="skills">
-            I am now available for new assignments in Östergötland as an IT
-            consultant via Academic Work. I look forward to contributing with my
-            knowledge and commitment to you.
-          </div>
+          <div className="skills">I am now available for new challenges.</div>
           <div className="skills">
             If you are interested in learning more about me, please contact me.
           </div>
