@@ -13,6 +13,12 @@ function Projects() {
           description="This is a Vite project and uses React, CSS"
         ></Card>
         <Card
+          name="OpenAI"
+          img="OpenAI.png"
+          link="https://open-ai-app-puce.vercel.app/"
+          description="This is a Next.js project and uses OpenAI ChatGPT"
+        ></Card>
+        <Card
           name="Ordering App"
           img="Ordering.JPG"
           link="https://order-app-weld.vercel.app"
