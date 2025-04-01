@@ -19,7 +19,7 @@ function Home() {
           <h1>Monica Codreanu</h1>
         </div>
         <div>
-          <div className="developer">I am a Junior Frontend Developer</div>
+          <div className="developer">I am an electronic engineer and I recently study to become a Junior Frontend Developer</div>
           <div className="skills">
             My skills include: JavaScript, React, Broser APIs, Node.js, User
             Experience Design (UX), Databases/ MySQL, Responsive Webdesign, Git.
