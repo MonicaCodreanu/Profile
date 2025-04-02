@@ -5,13 +5,13 @@ function Intro() {
     <div className="introAnimation">
       <div className="introFigures">
         <div className="introRow1">
-          <img className="S" src="/animation/Semicircle_black_new.png" alt="" />
+          <img className="S" src="/animation/Semicircle_black.png" alt="" />
           <img className="S" src="/animation/circle_red.svg" alt="" />
           <img className="S" src="/animation/polka_dots.jpg" alt="" />
         </div>
         <div className="introRow2">
           <img className="S" src="/animation/square_yellow.svg" alt="" />
-          <img className="S" src="/animation/Semicircle_gray_new.png" alt="" />
+          <img className="S" src="/animation/Semicircle_gray.png" alt="" />
           <img className="S" src="/animation/arrows.svg" alt="" />
         </div>
         <div className="introRow3">

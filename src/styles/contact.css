@@ -6,8 +6,13 @@
   margin-top: 100px;
 }
 .ContactWrapper .Contact {
-  color: #e0ddcf;
+  color: #000000;
+  align-items: center;
 }
 .ContactWrapper .Contact a {
-  color: #e0ddcf;
+  vertical-align: middle;
+}
+.ContactWrapper .Contact img {
+  height: 18px;
+  width: auto;
 }/*# sourceMappingURL=contact.css.map */

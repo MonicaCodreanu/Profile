@@ -4,7 +4,8 @@ import "../styles/projects.css";
 function Projects() {
   return (
     <div className="projects">
-      <h2>My Projects </h2>
+      <div className="projectsDiv"><h2>My Projects </h2></div>
+      
       <div className="cardsWrapper">
         <Card
           name="Trivia Game"

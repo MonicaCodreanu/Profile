@@ -4,14 +4,11 @@ function Contact() {
     <div className="ContactWrapper">
       <h2>Contact me</h2>
       <div className="Contact">
-        You can contact me on{" "}
-        <a href="https://www.linkedin.com/in/monicacodreanu/" target="_blank">
-          LinkedIn
-        </a>{" "}
-        or e-mail:
-      </div>
-      <div>
-        <img src="mail.PNG" alt="" />
+      
+              📧 <strong>Email:</strong> <a href="mailto:monica.codreanu@gmail.com"><img src="mail.png" alt="" /></a><br />
+              {/*📞 <strong>Phone:</strong> +46 76 308 3009<br />*/}
+              🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/monicacodreanu">linkedin.com/in/monicacodreanu</a>
+            
       </div>
     </div>
   );

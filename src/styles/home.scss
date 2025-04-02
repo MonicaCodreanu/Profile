@@ -1,5 +1,6 @@
 body {
-  background-color: #2d232e; // #f0f2f5;
+  background-color: #ffffff;
+  //background-color: #2d232e; // #f0f2f5;
 }
 .main {
   width: 800px;
@@ -8,38 +9,60 @@ body {
   justify-content: center;
   align-content: center;
   margin: auto;
-  color: #e0ddcf;
+  color: #000000;
   margin-top: 5rem;
   text-align: justify;
 
   img {
     width: 60px;
-    // height: 60px;
   }
 }
-.Hi {
-  color: #534b52;
-  font-size: 20px;
-  font-weight: bold;
-}
-.developer {
-  color: #f1f0ea;
-  font-size: 20px;
-  font-weight: bold;
-}
+
 .FullName {
+  text-align: center;
   h1 {
     font-family: Merienda;
-    font-size: 80px;
-    color: #534b52;
-    text-shadow: #e0ddcf 2px 5px;
+    font-size: 60px;
+    text-shadow: #5f5f5f 2px 5px;
+    margin: 5px
+  }
+  h2{
+    font-family: Merienda;
+    font-size: 20px;
+    color: #d00000;
+    margin: 5px;
+  }
+}
+
+.introHome {
+  color: #2d2d2d;
+  font-size: 18px;
+  //font-weight: bold;
+  p{
+    margin: 5px;
   }
 }
 .skills {
-  width: 600px;
   margin-top: 15px;
   margin-bottom: 15px;
   padding: 0;
+  ul{
+    padding-inline-start: 15px;
+  }
+}
+.career{
+  ul{padding-inline-start: 15px;}
+}
+.contact{
+  align-items: center;
+  a{
+    vertical-align: middle;
+  }
+    img{
+    height: 18px;
+    width: auto;
+    
+  }
 }
 
 @media only screen and (max-width: 800px) {

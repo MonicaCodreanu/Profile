@@ -23,7 +23,7 @@
   margin-top: 1rem;
   width: 100%;
   border-radius: 5px;
-  box-shadow: rgba(250, 248, 248, 0.24) 0px 3px 8px;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   height: 80px;
 }
 
@@ -31,6 +31,8 @@
   display: flex;
   flex-direction: row;
   gap: 1rem;
+  //background-image: url("/Logo_mini.png");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0), rgba(255, 255, 255, 0.959)),url("/Logo_mini.png");
 
   .Job {
     display: flex;

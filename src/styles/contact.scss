@@ -5,9 +5,15 @@
   justify-content: center;
   margin-top: 100px;
   .Contact {
-    color: #e0ddcf;
-    a {
-      color: #e0ddcf;
+    color: #000000;
+    align-items: center;
+    a{
+      vertical-align: middle;
+    }
+      img{
+      height: 18px;
+      width: auto;
+      
     }
   }
 }

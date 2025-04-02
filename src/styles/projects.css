@@ -3,9 +3,15 @@
   flex-direction: column;
   margin-top: 5rem;
   justify-content: center;
+  background-image: url("/Logo.png");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  padding-bottom: 5rem;
 }
 
 .cardsWrapper {
+  width: 1000px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -17,8 +23,18 @@ a {
   color: black;
 }
 
+.projectsDiv {
+  background-color: white;
+  margin-top: 1rem;
+  margin-left: 25px;
+  margin-right: 25px;
+  border-radius: 5px;
+  box-shadow: rgba(10, 10, 10, 0.24) 0px 3px 8px;
+}
+
 h2 {
-  color: #e0ddcf;
+  color: black;
+  text-shadow: 2px 2px 5px rgb(255, 255, 255);
 }
 
 @media only screen and (max-width: 800px) {
