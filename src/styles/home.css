@@ -59,6 +59,7 @@ body {
 }
 .contact a {
   vertical-align: middle;
+  height: 20px;
 }
 .contact img {
   height: 18px;
