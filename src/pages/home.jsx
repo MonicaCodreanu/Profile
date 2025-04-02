@@ -56,7 +56,7 @@ function Home() {
                 <li>Won two "Best Sales Agent" awards from MobiFon</li>
               </ul>
         </div>
-        <div className="contact">
+        <div className="contactMe">
             <h2>Let’s Connect!</h2>
             <p>
               If you're looking for someone who is adaptable, tech-savvy, and always eager to learn, feel free to reach out!
