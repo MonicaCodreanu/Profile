@@ -62,7 +62,7 @@ function Home() {
               If you're looking for someone who is adaptable, tech-savvy, and always eager to learn, feel free to reach out!
             </p>
           <div>
-              📧 <strong>Email:</strong> <a href="mailto:monica.codreanu@gmail.com"><img src="/mail.png" alt="" /></a><br />
+              📧 <strong>Email:</strong> <a href="mailto:monica.codreanu@gmail.com"><img src="mail.png" alt=""  height={18}/></a><br />
               {/*📞 <strong>Phone:</strong> +46 76 308 3009<br />*/}
               🔗 <strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/monicacodreanu">linkedin.com/in/monicacodreanu</a>
             </div>
