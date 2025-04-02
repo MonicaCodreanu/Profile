@@ -64,7 +64,7 @@ body {
 }
 .contactMe img {
   height: 18px;
-  width: auto;
+  width: 350px;
 }
 
 @media only screen and (max-width: 800px) {
