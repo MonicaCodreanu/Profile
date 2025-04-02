@@ -59,12 +59,10 @@ body {
 }
 .contactMe a {
   vertical-align: middle;
-  height: 20px;
-  width: 350px;
 }
 .contactMe img {
   height: 18px;
-  width: 350px;
+  width: auto;
 }
 
 @media only screen and (max-width: 800px) {
