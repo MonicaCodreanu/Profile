@@ -37,12 +37,12 @@ function SwedishIntro() {
             </p>
             </div>
         <div className="skills">
-              <h2>My Skills & Expertise</h2>
+              <h2>Min Kompetens & Expertis</h2>
               <ul>
-                <li><strong>Web Development:</strong> JavaScript, React, Node.js, MySQL, UX, Git</li>
-                <li><strong>Software Release & Testing:</strong> Localization releasing and testing, UI testing, release planning</li>
-                <li><strong>Customer Service & Sales:</strong> Strong background in tech sales and customer support</li>
-                <li><strong>Languages:</strong> Romanian (native), English (fluent), Swedish (B2/C1), Finnish & French (B1/B2)</li>
+                <li><strong>Webbutveckling:</strong> JavaScript, React, Node.js, MySQL, UX, Git</li>
+                <li><strong>Programvarurelase & Testning:</strong> Lokalisering av release och testning, UI-testning, releaseplanering</li>
+                <li><strong>Kundservice & Försäljning:</strong> Stark bakgrund inom teknisk försäljning och kundsupport</li>
+                <li><strong>Språk:</strong> Rumänska (modersmål), Engelska (flytande), Svenska (B2/C1), Finska & Franska (B1/B2)</li>
               </ul>
         </div>
         <div className="career">

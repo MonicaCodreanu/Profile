@@ -8,7 +8,7 @@ import Intro from "../Components/intro";
 function Home() {
   const [introActive, setIntroActive] = useState(false);
   const [introWasShown, setIntroWasShown] = useState(false);
-  console.log(introWasShown);
+  
  useEffect(() => {
   if(!introWasShown) {
     setTimeout(() => {
@@ -17,7 +17,7 @@ function Home() {
     }, 3000);}
     else{setIntroActive(false);}
   }, []);
-  console.log(introWasShown);
+  
 
   return (
     <>
@@ -69,7 +69,7 @@ function Home() {
               </ul>
         </div>
         <div className="contactMe">
-            <h2>Let’s Connect!</h2>
+            <h2>Let's Connect!</h2>
             <p>
               If you're looking for someone who is adaptable, tech-savvy, and always eager to learn, feel free to reach out!
             </p>
