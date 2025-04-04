@@ -17,6 +17,15 @@ body {
   width: 60px;
 }
 
+.language {
+  display: flex;
+  justify-content: right;
+}
+.language button {
+  cursor: pointer;
+  border: none;
+}
+
 .FullName {
   text-align: center;
 }

@@ -1,21 +1,33 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
+import { Link} from "react-router-dom";
 import "../styles/home.css";
 import Intro from "../Components/intro";
 
+
+
 function Home() {
   const [introActive, setIntroActive] = useState(false);
-
-  useEffect(() => {
+  const [introWasShown, setIntroWasShown] = useState(false);
+  console.log(introWasShown);
+ useEffect(() => {
+  if(!introWasShown) {
     setTimeout(() => {
       setIntroActive(true);
-    }, 3000);
+      setIntroWasShown(true);
+    }, 3000);}
+    else{setIntroActive(false);}
   }, []);
+  console.log(introWasShown);
 
   return (
     <>
       {!introActive ? <Intro /> : null}
       <div className="main">
+        <div className="language">
+          <Link to="/swedishIntro">
+           <button><img src="Swedish_flag.PNG" alt="" /></button>
+          </Link>
+        </div>
        <div className="FullName">                  
         <h1>Monica  Codreanu </h1>
         <h2>Curious Mind, Problem Solver & Tech Enthusiast</h2>
