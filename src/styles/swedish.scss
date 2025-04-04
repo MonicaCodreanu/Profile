@@ -1,0 +1,92 @@
+body {
+    background-color: #ffffff;
+    //background-color: #2d232e; // #f0f2f5;
+  }
+  .main {
+    width: 800px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    margin: auto;
+    color: #000000;
+    margin-top: 5rem;
+    text-align: justify;
+  
+    img {
+      width: 60px;
+    }
+  }
+  .language{
+    display: flex;
+   justify-content: right;
+   button{
+    cursor: pointer;
+    border: none;
+   }
+  }
+  
+  .FullName {
+    text-align: center;
+    h1 {
+      font-family: Merienda;
+      font-size: 60px;
+      text-shadow: #5f5f5f 2px 5px;
+      margin: 5px
+    }
+    h2{
+      font-family: Merienda;
+      font-size: 20px;
+      color: #d00000;
+      margin: 5px;
+    }
+  }
+  
+  .introHome {
+    color: #2d2d2d;
+    font-size: 18px;
+    //font-weight: bold;
+    p{
+      margin: 5px;
+    }
+  }
+  .skills {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 0;
+    ul{
+      padding-inline-start: 15px;
+    }
+  }
+  .career{
+    ul{padding-inline-start: 15px;}
+  }
+  .contactMe{
+    align-items: center;
+    a{
+      vertical-align: middle;
+    }
+      img{
+      height: 18px;
+      width: auto;
+      
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .main {
+      width: 300px;
+      .Hi {
+        font-size: 15px;
+      }
+      .FullName {
+        h1 {
+          font-size: 40px;
+        }
+      }
+      .skills {
+        width: 300px;
+      }
+    }
+  }
+  

@@ -1,0 +1,90 @@
+body {
+  background-color: #ffffff;
+}
+
+.main {
+  width: 800px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin: auto;
+  color: #000000;
+  margin-top: 5rem;
+  text-align: justify;
+}
+.main img {
+  width: 60px;
+}
+
+.language {
+  display: flex;
+  justify-content: right;
+}
+.language button {
+  cursor: pointer;
+  border: none;
+}
+
+.FullName {
+  text-align: center;
+}
+.FullName h1 {
+  font-family: Merienda;
+  font-size: 60px;
+  text-shadow: #5f5f5f 2px 5px;
+  margin: 5px;
+}
+.FullName h2 {
+  font-family: Merienda;
+  font-size: 20px;
+  color: #d00000;
+  margin: 5px;
+}
+
+.introHome {
+  color: #2d2d2d;
+  font-size: 18px;
+}
+.introHome p {
+  margin: 5px;
+}
+
+.skills {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding: 0;
+}
+.skills ul {
+  padding-inline-start: 15px;
+}
+
+.career ul {
+  padding-inline-start: 15px;
+}
+
+.contactMe {
+  align-items: center;
+}
+.contactMe a {
+  vertical-align: middle;
+}
+.contactMe img {
+  height: 18px;
+  width: auto;
+}
+
+@media only screen and (max-width: 800px) {
+  .main {
+    width: 300px;
+  }
+  .main .Hi {
+    font-size: 15px;
+  }
+  .main .FullName h1 {
+    font-size: 40px;
+  }
+  .main .skills {
+    width: 300px;
+  }
+}/*# sourceMappingURL=swedish.css.map */
